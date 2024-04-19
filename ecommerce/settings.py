@@ -30,8 +30,8 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["e-shop-django.fly.dev", "e-shop-django-ai-tools.koyeb.app"]
-CSRF_TRUSTED_ORIGINS = ["https://e-shop-django.fly.dev", "https://e-shop-django-ai-tools.koyeb.app"]
+ALLOWED_HOSTS = ["e-shop-django.fly.dev", "e-shop-django-ai-tools.koyeb.app", "eshopdjango-lg91.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://e-shop-django.fly.dev", "https://e-shop-django-ai-tools.koyeb.app", "https://eshopdjango-lg91.onrender.com"]
 
 # Application definition
 
